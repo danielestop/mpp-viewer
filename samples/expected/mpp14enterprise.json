@@ -1,0 +1,555 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "Test Enterprise Resource Fields.Published",
+    "subject" : null,
+    "author" : "SERVER2003\\jon",
+    "company" : "Packwood Software",
+    "manager" : null,
+    "start" : "2007-12-05T08:00",
+    "finish" : "2007-12-05T17:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "Test Enterprise Resource Fields.Published",
+    "outlineLevel" : 0,
+    "outlineNumber" : "0",
+    "wbs" : "0",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2007-12-05T08:00",
+    "finish" : "2007-12-05T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Task One 1",
+    "outlineLevel" : 1,
+    "outlineNumber" : "1",
+    "wbs" : "1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2007-12-05T08:00",
+    "finish" : "2007-12-05T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ {
+      "field" : "ENTERPRISE_TEXT1",
+      "value" : "ET1"
+    }, {
+      "field" : "ENTERPRISE_TEXT2",
+      "value" : "ET2"
+    }, {
+      "field" : "ENTERPRISE_TEXT3",
+      "value" : "ET3"
+    }, {
+      "field" : "ENTERPRISE_TEXT4",
+      "value" : "ET4"
+    }, {
+      "field" : "ENTERPRISE_TEXT5",
+      "value" : "ET5"
+    }, {
+      "field" : "ENTERPRISE_TEXT6",
+      "value" : "ET6"
+    }, {
+      "field" : "ENTERPRISE_TEXT7",
+      "value" : "ET7"
+    }, {
+      "field" : "ENTERPRISE_TEXT8",
+      "value" : "ET8"
+    }, {
+      "field" : "ENTERPRISE_TEXT9",
+      "value" : "ET9"
+    }, {
+      "field" : "ENTERPRISE_TEXT10",
+      "value" : "ET10"
+    }, {
+      "field" : "ENTERPRISE_TEXT11",
+      "value" : "ET11"
+    }, {
+      "field" : "ENTERPRISE_TEXT12",
+      "value" : "ET12"
+    }, {
+      "field" : "ENTERPRISE_TEXT13",
+      "value" : "ET13"
+    }, {
+      "field" : "ENTERPRISE_TEXT14",
+      "value" : "ET14"
+    }, {
+      "field" : "ENTERPRISE_TEXT15",
+      "value" : "ET15"
+    }, {
+      "field" : "ENTERPRISE_TEXT16",
+      "value" : "ET16"
+    }, {
+      "field" : "ENTERPRISE_TEXT17",
+      "value" : "ET17"
+    }, {
+      "field" : "ENTERPRISE_TEXT18",
+      "value" : "ET18"
+    }, {
+      "field" : "ENTERPRISE_TEXT19",
+      "value" : "ET19"
+    }, {
+      "field" : "ENTERPRISE_TEXT20",
+      "value" : "ET20"
+    }, {
+      "field" : "ENTERPRISE_TEXT21",
+      "value" : "ET21"
+    }, {
+      "field" : "ENTERPRISE_TEXT22",
+      "value" : "ET22"
+    }, {
+      "field" : "ENTERPRISE_TEXT23",
+      "value" : "ET23"
+    }, {
+      "field" : "ENTERPRISE_TEXT24",
+      "value" : "ET24"
+    }, {
+      "field" : "ENTERPRISE_TEXT25",
+      "value" : "ET25"
+    }, {
+      "field" : "ENTERPRISE_TEXT26",
+      "value" : "ET26"
+    }, {
+      "field" : "ENTERPRISE_TEXT27",
+      "value" : "ET27"
+    }, {
+      "field" : "ENTERPRISE_TEXT28",
+      "value" : "ET28"
+    }, {
+      "field" : "ENTERPRISE_TEXT29",
+      "value" : "ET29"
+    }, {
+      "field" : "ENTERPRISE_TEXT30",
+      "value" : "ET30"
+    }, {
+      "field" : "ENTERPRISE_TEXT31",
+      "value" : "ET31"
+    }, {
+      "field" : "ENTERPRISE_TEXT32",
+      "value" : "ET32"
+    }, {
+      "field" : "ENTERPRISE_TEXT33",
+      "value" : "ET33"
+    }, {
+      "field" : "ENTERPRISE_TEXT34",
+      "value" : "ET34"
+    }, {
+      "field" : "ENTERPRISE_TEXT35",
+      "value" : "ET35"
+    }, {
+      "field" : "ENTERPRISE_TEXT36",
+      "value" : "ET36"
+    }, {
+      "field" : "ENTERPRISE_TEXT37",
+      "value" : "ET37"
+    }, {
+      "field" : "ENTERPRISE_TEXT38",
+      "value" : "ET38"
+    }, {
+      "field" : "ENTERPRISE_TEXT39",
+      "value" : "ET39"
+    }, {
+      "field" : "ENTERPRISE_TEXT40",
+      "value" : "ET40"
+    }, {
+      "field" : "ENTERPRISE_NUMBER1",
+      "value" : 1.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER2",
+      "value" : 2.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER3",
+      "value" : 3.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER4",
+      "value" : 4.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER5",
+      "value" : 5.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER6",
+      "value" : 6.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER7",
+      "value" : 7.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER8",
+      "value" : 8.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER9",
+      "value" : 9.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER10",
+      "value" : 10.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER11",
+      "value" : 11.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER12",
+      "value" : 12.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER13",
+      "value" : 13.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER14",
+      "value" : 14.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER15",
+      "value" : 15.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER16",
+      "value" : 16.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER17",
+      "value" : 17.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER18",
+      "value" : 18.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER19",
+      "value" : 19.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER20",
+      "value" : 20.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER21",
+      "value" : 21.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER22",
+      "value" : 22.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER23",
+      "value" : 23.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER24",
+      "value" : 24.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER25",
+      "value" : 25.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER26",
+      "value" : 26.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER27",
+      "value" : 27.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER28",
+      "value" : 28.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER29",
+      "value" : 29.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER30",
+      "value" : 30.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER31",
+      "value" : 31.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER32",
+      "value" : 32.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER33",
+      "value" : 33.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER34",
+      "value" : 34.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER35",
+      "value" : 35.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER36",
+      "value" : 36.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER37",
+      "value" : 37.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER38",
+      "value" : 38.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER39",
+      "value" : 39.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER40",
+      "value" : 40.0
+    }, {
+      "field" : "ENTERPRISE_COST1",
+      "value" : 1.0
+    }, {
+      "field" : "ENTERPRISE_COST2",
+      "value" : 2.0
+    }, {
+      "field" : "ENTERPRISE_COST3",
+      "value" : 3.0
+    }, {
+      "field" : "ENTERPRISE_COST4",
+      "value" : 4.0
+    }, {
+      "field" : "ENTERPRISE_COST5",
+      "value" : 5.0
+    }, {
+      "field" : "ENTERPRISE_COST6",
+      "value" : 6.0
+    }, {
+      "field" : "ENTERPRISE_COST7",
+      "value" : 7.0
+    }, {
+      "field" : "ENTERPRISE_COST8",
+      "value" : 8.0
+    }, {
+      "field" : "ENTERPRISE_COST9",
+      "value" : 9.0
+    }, {
+      "field" : "ENTERPRISE_COST10",
+      "value" : 10.0
+    }, {
+      "field" : "ENTERPRISE_DATE1",
+      "value" : "1991-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE2",
+      "value" : "1992-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE3",
+      "value" : "1993-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE4",
+      "value" : "1994-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE5",
+      "value" : "1995-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE6",
+      "value" : "1996-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE7",
+      "value" : "1997-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE8",
+      "value" : "1998-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE9",
+      "value" : "1999-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE10",
+      "value" : "2000-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE11",
+      "value" : "2001-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE12",
+      "value" : "2002-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE13",
+      "value" : "2003-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE14",
+      "value" : "2004-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE15",
+      "value" : "2005-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE16",
+      "value" : "2006-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE17",
+      "value" : "2007-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE18",
+      "value" : "2008-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE19",
+      "value" : "2009-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE20",
+      "value" : "2010-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE21",
+      "value" : "2011-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE22",
+      "value" : "2012-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE23",
+      "value" : "2013-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE24",
+      "value" : "2014-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE25",
+      "value" : "2015-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE26",
+      "value" : "2016-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE27",
+      "value" : "2017-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE28",
+      "value" : "2018-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE29",
+      "value" : "2019-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE30",
+      "value" : "2020-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_FLAG1",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG3",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG5",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG7",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG9",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG11",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG13",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG15",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG17",
+      "value" : true
+    }, {
+      "field" : "ENTERPRISE_FLAG19",
+      "value" : true
+    } ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Resource One",
+    "type" : "WORK",
+    "initials" : "R",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ {
+      "field" : "ENTERPRISE_TEXT1",
+      "value" : "RET1"
+    }, {
+      "field" : "ENTERPRISE_TEXT10",
+      "value" : "RET10"
+    }, {
+      "field" : "ENTERPRISE_TEXT20",
+      "value" : "RET20"
+    }, {
+      "field" : "ENTERPRISE_TEXT30",
+      "value" : "RET30"
+    }, {
+      "field" : "ENTERPRISE_TEXT40",
+      "value" : "RET40"
+    }, {
+      "field" : "ENTERPRISE_NUMBER1",
+      "value" : 1.0
+    }, {
+      "field" : "ENTERPRISE_NUMBER40",
+      "value" : 40.0
+    }, {
+      "field" : "ENTERPRISE_COST1",
+      "value" : 1.0
+    }, {
+      "field" : "ENTERPRISE_COST10",
+      "value" : 10.0
+    }, {
+      "field" : "ENTERPRISE_DATE1",
+      "value" : "2008-01-01T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE10",
+      "value" : "2008-01-10T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE20",
+      "value" : "2008-01-20T08:00"
+    }, {
+      "field" : "ENTERPRISE_DATE30",
+      "value" : "2008-01-30T08:00"
+    }, {
+      "field" : "ENTERPRISE_FLAG20",
+      "value" : true
+    } ]
+  } ],
+  "assignments" : [ {
+    "uid" : 1,
+    "taskUid" : 1,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2007-12-05T08:00",
+    "finish" : "2007-12-05T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

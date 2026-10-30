@@ -1,0 +1,17 @@
+{
+  "name": "lettore-mpp",
+  "version": "0.1.0",
+  "description": "Lettore offline di file Microsoft Project (.mpp) in un unico file HTML",
+  "private": true,
+  "license": "LGPL-2.1-or-later",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "oracle": "node scripts/oracle/run.mjs",
+    "fields": "node scripts/oracle/run.mjs --fields"
+  },
+  "dependencies": {
+    "cfb": "1.2.2"
+  }
+}

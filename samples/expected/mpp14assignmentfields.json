@@ -1,0 +1,204 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "assignment test",
+    "subject" : null,
+    "author" : null,
+    "company" : "Davis Langdon",
+    "manager" : null,
+    "start" : "2011-07-06T08:00",
+    "finish" : "2011-07-18T16:01",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "assignment test",
+    "outlineLevel" : 0,
+    "outlineNumber" : "0",
+    "wbs" : "0",
+    "duration" : {
+      "value" : 8.877083333333333,
+      "units" : "DAYS"
+    },
+    "start" : "2011-07-06T08:00",
+    "finish" : "2011-07-18T16:01",
+    "percentComplete" : 6.0,
+    "work" : {
+      "value" : 103.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 95.99859154929578,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Task One",
+    "outlineLevel" : 1,
+    "outlineNumber" : "1",
+    "wbs" : "1",
+    "duration" : {
+      "value" : 8.877083333333333,
+      "units" : "DAYS"
+    },
+    "start" : "2011-07-06T08:00",
+    "finish" : "2011-07-18T16:01",
+    "percentComplete" : 6.0,
+    "work" : {
+      "value" : 103.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 95.99859154929578,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Resource One",
+    "type" : "WORK",
+    "initials" : "R",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 50.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "id" : 2,
+    "name" : "Budget Work Resource",
+    "type" : "WORK",
+    "initials" : "B",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 3,
+    "name" : "Budget Cost Resource",
+    "type" : "COST",
+    "initials" : "B",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 4,
+    "name" : "Resource Two",
+    "type" : "WORK",
+    "initials" : "R",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 33.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ {
+    "uid" : 2,
+    "taskUid" : 1,
+    "resourceUid" : 1,
+    "units" : 100.0,
+    "work" : {
+      "value" : 80.0,
+      "units" : "HOURS"
+    },
+    "start" : "2011-07-06T08:00",
+    "finish" : "2011-07-18T16:01",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "taskUid" : 0,
+    "resourceUid" : 2,
+    "units" : 100.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "start" : "2011-07-06T08:00",
+    "finish" : "2011-07-06T08:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "taskUid" : 0,
+    "resourceUid" : 3,
+    "units" : 100.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "start" : "2011-07-06T08:00",
+    "finish" : "2011-07-06T08:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "taskUid" : 1,
+    "resourceUid" : 4,
+    "units" : 25.0,
+    "work" : {
+      "value" : 23.0,
+      "units" : "HOURS"
+    },
+    "start" : "2011-07-06T08:55",
+    "finish" : "2011-07-07T13:55",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

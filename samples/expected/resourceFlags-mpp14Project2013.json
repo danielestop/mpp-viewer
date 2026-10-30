@@ -1,0 +1,548 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "resourceFlags-mpp14Project2013a",
+    "subject" : null,
+    "author" : "melanie",
+    "company" : null,
+    "manager" : null,
+    "start" : "2013-09-04T08:00",
+    "finish" : "2013-09-04T08:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "resourceFlags-mpp14Project2013a",
+    "outlineLevel" : 0,
+    "outlineNumber" : null,
+    "wbs" : null,
+    "duration" : {
+      "value" : 0.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-04T08:00",
+    "finish" : "2013-09-04T08:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : true,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Work 1",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "id" : 2,
+    "name" : "Material 1",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 4,
+    "name" : "Work 2",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 5,
+    "name" : "Material 2",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "id" : 7,
+    "name" : "Budget: No 1",
+    "type" : "WORK",
+    "initials" : "B",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "id" : 8,
+    "name" : "Budget: Yes 1",
+    "type" : "WORK",
+    "initials" : "B",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "id" : 9,
+    "name" : "Budget: No 2",
+    "type" : "WORK",
+    "initials" : "B",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "id" : 10,
+    "name" : "Budget: Yes 2",
+    "type" : "WORK",
+    "initials" : "B",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "id" : 11,
+    "name" : "Flag1",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG1",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 10,
+    "id" : 12,
+    "name" : "Flag2",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG2",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 11,
+    "id" : 13,
+    "name" : "Flag3",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG3",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 12,
+    "id" : 14,
+    "name" : "Flag4",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG4",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 13,
+    "id" : 15,
+    "name" : "Flag5",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG5",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 14,
+    "id" : 16,
+    "name" : "Flag6",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG6",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 15,
+    "id" : 17,
+    "name" : "Flag7",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG7",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 16,
+    "id" : 18,
+    "name" : "Flag8",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG8",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 17,
+    "id" : 19,
+    "name" : "Flag9",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG9",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 18,
+    "id" : 20,
+    "name" : "Flag10",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG10",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 19,
+    "id" : 21,
+    "name" : "Flag11",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG11",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 20,
+    "id" : 22,
+    "name" : "Flag12",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG12",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 21,
+    "id" : 23,
+    "name" : "Flag13",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG13",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 22,
+    "id" : 24,
+    "name" : "Flag14",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG14",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 23,
+    "id" : 25,
+    "name" : "Flag15",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG15",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 24,
+    "id" : 26,
+    "name" : "Flag16",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG16",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 25,
+    "id" : 27,
+    "name" : "Flag17",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG17",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 26,
+    "id" : 28,
+    "name" : "Flag18",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG18",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 27,
+    "id" : 29,
+    "name" : "Flag19",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG19",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 28,
+    "id" : 30,
+    "name" : "Flag20",
+    "type" : "WORK",
+    "initials" : "F",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "FLAG20",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 30,
+    "id" : 3,
+    "name" : "Cost 1",
+    "type" : "COST",
+    "initials" : "C",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 31,
+    "id" : 6,
+    "name" : "Cost 2",
+    "type" : "WORK",
+    "initials" : "C",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

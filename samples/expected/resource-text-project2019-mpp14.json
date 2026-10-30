@@ -1,0 +1,578 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "resource-text-project2019-mpp14",
+    "subject" : null,
+    "author" : "jon",
+    "company" : null,
+    "manager" : null,
+    "start" : "2018-10-18T08:00",
+    "finish" : "2018-10-18T08:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "resource-text-project2019-mpp14",
+    "outlineLevel" : 0,
+    "outlineNumber" : null,
+    "wbs" : null,
+    "duration" : {
+      "value" : 0.0,
+      "units" : "DAYS"
+    },
+    "start" : "2018-10-18T08:00",
+    "finish" : "2018-10-18T08:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Text1",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT1",
+      "value" : "1"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "id" : 2,
+    "name" : "Text2",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT2",
+      "value" : "2"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 3,
+    "name" : "Text3",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT3",
+      "value" : "3"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 4,
+    "name" : "Text4",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT4",
+      "value" : "4"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "id" : 5,
+    "name" : "Text5",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT5",
+      "value" : "5"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "id" : 6,
+    "name" : "Text6",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT6",
+      "value" : "6"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "id" : 7,
+    "name" : "Text7",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT7",
+      "value" : "7"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "id" : 8,
+    "name" : "Text8",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT8",
+      "value" : "8"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "id" : 9,
+    "name" : "Text9",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT9",
+      "value" : "9"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 10,
+    "id" : 10,
+    "name" : "Text10",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT10",
+      "value" : "10"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 11,
+    "id" : 11,
+    "name" : "Text11",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT11",
+      "value" : "11"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 12,
+    "id" : 12,
+    "name" : "Text12",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT12",
+      "value" : "12"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 13,
+    "id" : 13,
+    "name" : "Text13",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT13",
+      "value" : "13"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 14,
+    "id" : 14,
+    "name" : "Text14",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT14",
+      "value" : "14"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 15,
+    "id" : 15,
+    "name" : "Text15",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT15",
+      "value" : "15"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 16,
+    "id" : 16,
+    "name" : "Text16",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT16",
+      "value" : "16"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 17,
+    "id" : 17,
+    "name" : "Text17",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT17",
+      "value" : "17"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 18,
+    "id" : 18,
+    "name" : "Text18",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT18",
+      "value" : "18"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 19,
+    "id" : 19,
+    "name" : "Text19",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT19",
+      "value" : "19"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 20,
+    "id" : 20,
+    "name" : "Text20",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT20",
+      "value" : "20"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 21,
+    "id" : 21,
+    "name" : "Text21",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT21",
+      "value" : "21"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 22,
+    "id" : 22,
+    "name" : "Text22",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT22",
+      "value" : "22"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 23,
+    "id" : 23,
+    "name" : "Text23",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT23",
+      "value" : "23"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 24,
+    "id" : 24,
+    "name" : "Text24",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT24",
+      "value" : "24"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 25,
+    "id" : 25,
+    "name" : "Text25",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT25",
+      "value" : "25"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 26,
+    "id" : 26,
+    "name" : "Text26",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT26",
+      "value" : "26"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 27,
+    "id" : 27,
+    "name" : "Text27",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT27",
+      "value" : "27"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 28,
+    "id" : 28,
+    "name" : "Text28",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT28",
+      "value" : "28"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 29,
+    "id" : 29,
+    "name" : "Text29",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT29",
+      "value" : "29"
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 30,
+    "id" : 30,
+    "name" : "Text30",
+    "type" : "WORK",
+    "initials" : "T",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ {
+      "field" : "TEXT30",
+      "value" : "30"
+    } ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

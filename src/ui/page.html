@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MPP Reader</title>
+<style>/*__STYLE__*/</style>
+</head>
+<body>
+<header class="appbar">
+  <div class="brand">
+    <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="18" rx="4" fill="currentColor" opacity=".18"/><rect x="5" y="7" width="8" height="2.5" rx="1.25" fill="currentColor"/><rect x="8" y="11" width="10" height="2.5" rx="1.25" fill="currentColor"/><rect x="11" y="15" width="6" height="2.5" rx="1.25" fill="currentColor"/></svg>
+    <h1>MPP Reader</h1>
+  </div>
+  <div class="appbar-tools">
+    <label class="theme">Theme
+      <select id="theme">
+        <option value="auto">Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </label>
+    <span class="offline" title="The file is read only on this computer and is never sent anywhere.">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="2"/><rect x="4" y="10" width="16" height="11" rx="2.5" fill="currentColor"/></svg>
+      Offline · private
+    </span>
+  </div>
+</header>
+
+<main>
+  <label id="drop" class="drop" for="file" tabindex="0">
+    <span class="drop-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M14 2H7a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 2v6h6M12 18v-6m-3 3 3-3 3 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    <strong>Drop a .mpp file here</strong>
+    <span>or <u>click to choose one</u></span>
+    <span class="privacy">Works offline: the file is read only on this computer and is never sent anywhere.</span>
+    <input id="file" type="file" accept=".mpp,.mpt">
+  </label>
+
+  <section id="error" class="error" role="alert" hidden></section>
+
+  <div id="viewer" hidden>
+    <div class="toolbar">
+      <div class="file-info">
+        <strong id="project-title"></strong>
+        <span id="file-name"></span>
+      </div>
+      <div class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="search" type="search" placeholder="Search by name, WBS, unique ID or added columns…" aria-label="Search by name, WBS, unique ID or added columns" autocomplete="off">
+      </div>
+      <div class="settings">
+        <label class="setting">Date format
+          <select id="date-format">
+            <option value="dmy">DD/MM/YYYY</option>
+            <option value="mdy">MM/DD/YYYY</option>
+            <option value="ymd">YYYY-MM-DD</option>
+          </select>
+        </label>
+        <button type="button" id="open-other" class="button primary">Open another file</button>
+      </div>
+    </div>
+
+    <nav class="tabs" role="tablist" aria-label="Project sections">
+      <button type="button" role="tab" id="tab-project" aria-controls="panel-project" aria-selected="true">Project</button>
+      <button type="button" role="tab" id="tab-tasks" aria-controls="panel-tasks" aria-selected="false" tabindex="-1">Tasks <span class="count" id="count-tasks"></span></button>
+      <button type="button" role="tab" id="tab-resources" aria-controls="panel-resources" aria-selected="false" tabindex="-1">Resources <span class="count" id="count-resources"></span></button>
+      <button type="button" role="tab" id="tab-assignments" aria-controls="panel-assignments" aria-selected="false" tabindex="-1">Assignments <span class="count" id="count-assignments"></span></button>
+    </nav>
+
+    <section id="panel-project" class="panel" role="tabpanel" aria-labelledby="tab-project">
+      <div id="project-cards" class="cards"></div>
+      <dl id="project-details" class="details"></dl>
+      <p id="project-empty" class="empty-note" hidden>The project contains no tasks.</p>
+    </section>
+
+    <section id="panel-tasks" class="panel" role="tabpanel" aria-labelledby="tab-tasks" hidden>
+      <div class="panel-tools">
+        <button type="button" id="expand-all">Expand all</button>
+        <button type="button" id="collapse-all">Collapse all</button>
+        <details class="columns" id="tasks-columns" hidden>
+          <summary>Columns</summary>
+          <div class="columns-list"></div>
+        </details>
+        <span class="hint">Click a task to see its assigned resources.</span>
+      </div>
+      <div class="split">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="num">ID</th>
+                <th class="num">Unique ID</th>
+                <th>WBS</th>
+                <th>Task name</th>
+                <th class="num">Duration</th>
+                <th class="num">Work</th>
+                <th class="num">Remaining work</th>
+                <th>Start</th>
+                <th>Finish</th>
+                <th class="num">% complete</th>
+                <th>Predecessors</th>
+                <th>Resources</th>
+              </tr>
+            </thead>
+            <tbody id="tasks-body"></tbody>
+          </table>
+          <p id="tasks-empty" class="empty-note" hidden></p>
+        </div>
+        <aside id="task-detail" class="detail" aria-live="polite" hidden></aside>
+      </div>
+    </section>
+
+    <section id="panel-resources" class="panel" role="tabpanel" aria-labelledby="tab-resources" hidden>
+      <div class="panel-tools">
+        <details class="columns" id="resources-columns" hidden>
+          <summary>Columns</summary>
+          <div class="columns-list"></div>
+        </details>
+        <span class="hint">Click a resource to see the tasks it works on.</span>
+      </div>
+      <div class="split">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="num">ID</th>
+                <th>Resource name</th>
+                <th>Type</th>
+                <th>Initials</th>
+                <th>Group</th>
+                <th class="num">Max units</th>
+                <th class="num">Standard rate</th>
+              </tr>
+            </thead>
+            <tbody id="resources-body"></tbody>
+          </table>
+          <p id="resources-empty" class="empty-note" hidden></p>
+        </div>
+        <aside id="resource-detail" class="detail" aria-live="polite" hidden></aside>
+      </div>
+    </section>
+
+    <section id="panel-assignments" class="panel" role="tabpanel" aria-labelledby="tab-assignments" hidden>
+      <div class="panel-tools" role="radiogroup" aria-label="Group assignments">
+        <span>Group by:</span>
+        <label><input type="radio" name="group-by" value="task" checked> task</label>
+        <label><input type="radio" name="group-by" value="resource"> resource</label>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th id="assignments-first-column">Resource</th>
+              <th class="num">Units</th>
+              <th class="num">Work</th>
+              <th>Start</th>
+              <th>Finish</th>
+            </tr>
+          </thead>
+          <tbody id="assignments-body"></tbody>
+        </table>
+        <p id="assignments-empty" class="empty-note" hidden></p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <details>
+    <summary>Licenses</summary>
+    <p>MPP Reader is free software released under the GNU LGPL 2.1 or (at your option) any later version;
+      its reading logic is derived from MPXJ (© Packwood Software, Jon Iles and contributors, LGPL 2.1 or later). It includes the cfb library (© SheetJS, Apache License 2.0).
+      The source code is contained in this same file.</p>
+    <h3>GNU Lesser General Public License 2.1</h3>
+    <pre>/*__LICENSE_LGPL__*/</pre>
+    <h3>Apache License 2.0 (cfb)</h3>
+    <pre>/*__LICENSE_APACHE__*/</pre>
+  </details>
+</footer>
+
+<script>/*__CFB__*/</script>
+<script>/*__APP__*/</script>
+</body>
+</html>

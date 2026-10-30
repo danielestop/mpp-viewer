@@ -1,0 +1,1084 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "mpp9recurring1",
+    "subject" : null,
+    "author" : "Jon Iles",
+    "company" : " ",
+    "manager" : null,
+    "start" : "2008-06-15T08:00",
+    "finish" : "2010-06-21T09:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "mpp9recurring1",
+    "outlineLevel" : 0,
+    "outlineNumber" : "0",
+    "wbs" : "0",
+    "duration" : {
+      "value" : 525.125,
+      "units" : "DAYS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2010-06-21T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Daily Every Day",
+    "outlineLevel" : 1,
+    "outlineNumber" : "1",
+    "wbs" : "1",
+    "duration" : {
+      "value" : 0.125,
+      "units" : "DAYS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "id" : 2,
+    "name" : "Daily Every Day 1",
+    "outlineLevel" : 2,
+    "outlineNumber" : "1.1",
+    "wbs" : "1.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 3,
+    "name" : "Daily Every Day 2",
+    "outlineLevel" : 2,
+    "outlineNumber" : "1.2",
+    "wbs" : "1.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 4,
+    "name" : "Daily Every Other Workday",
+    "outlineLevel" : 1,
+    "outlineNumber" : "2",
+    "wbs" : "2",
+    "duration" : {
+      "value" : 4.125,
+      "units" : "DAYS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-20T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "id" : 5,
+    "name" : "Daily Every Other Workday 1",
+    "outlineLevel" : 2,
+    "outlineNumber" : "2.1",
+    "wbs" : "2.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "id" : 6,
+    "name" : "Daily Every Other Workday 2",
+    "outlineLevel" : 2,
+    "outlineNumber" : "2.2",
+    "wbs" : "2.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-18T08:00",
+    "finish" : "2008-06-18T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "id" : 7,
+    "name" : "Daily Every Other Workday 3",
+    "outlineLevel" : 2,
+    "outlineNumber" : "2.3",
+    "wbs" : "2.3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-20T08:00",
+    "finish" : "2008-06-20T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 10,
+    "id" : 8,
+    "name" : "Weekly Every Week",
+    "outlineLevel" : 1,
+    "outlineNumber" : "3",
+    "wbs" : "3",
+    "duration" : {
+      "value" : 4.125,
+      "units" : "DAYS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-20T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 13,
+    "id" : 9,
+    "name" : "Weekly Every Week 1",
+    "outlineLevel" : 2,
+    "outlineNumber" : "3.1",
+    "wbs" : "3.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 14,
+    "id" : 10,
+    "name" : "Weekly Every Week 2",
+    "outlineLevel" : 2,
+    "outlineNumber" : "3.2",
+    "wbs" : "3.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-18T08:00",
+    "finish" : "2008-06-18T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 15,
+    "id" : 11,
+    "name" : "Weekly Every Week 3",
+    "outlineLevel" : 2,
+    "outlineNumber" : "3.3",
+    "wbs" : "3.3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-20T08:00",
+    "finish" : "2008-06-20T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 16,
+    "id" : 12,
+    "name" : "Monthly 15th of Every Month",
+    "outlineLevel" : 1,
+    "outlineNumber" : "4",
+    "wbs" : "4",
+    "duration" : {
+      "value" : 44.125,
+      "units" : "DAYS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-08-15T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 19,
+    "id" : 13,
+    "name" : "Monthly 15th of Every Month 1",
+    "outlineLevel" : 2,
+    "outlineNumber" : "4.1",
+    "wbs" : "4.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 20,
+    "id" : 14,
+    "name" : "Monthly 15th of Every Month 2",
+    "outlineLevel" : 2,
+    "outlineNumber" : "4.2",
+    "wbs" : "4.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-07-15T08:00",
+    "finish" : "2008-07-15T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 21,
+    "id" : 15,
+    "name" : "Monthly 15th of Every Month 3",
+    "outlineLevel" : 2,
+    "outlineNumber" : "4.3",
+    "wbs" : "4.3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-08-15T08:00",
+    "finish" : "2008-08-15T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 22,
+    "id" : 16,
+    "name" : "Monthly Third Monday of Every Month",
+    "outlineLevel" : 1,
+    "outlineNumber" : "5",
+    "wbs" : "5",
+    "duration" : {
+      "value" : 45.125,
+      "units" : "DAYS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-08-18T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 25,
+    "id" : 17,
+    "name" : "Monthly Third Monday of Every Month 1",
+    "outlineLevel" : 2,
+    "outlineNumber" : "5.1",
+    "wbs" : "5.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 26,
+    "id" : 18,
+    "name" : "Monthly Third Monday of Every Month 2",
+    "outlineLevel" : 2,
+    "outlineNumber" : "5.2",
+    "wbs" : "5.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-07-21T08:00",
+    "finish" : "2008-07-21T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 27,
+    "id" : 19,
+    "name" : "Monthly Third Monday of Every Month 3",
+    "outlineLevel" : 2,
+    "outlineNumber" : "5.3",
+    "wbs" : "5.3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-08-18T08:00",
+    "finish" : "2008-08-18T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 28,
+    "id" : 20,
+    "name" : "Yearly 15th June",
+    "outlineLevel" : 1,
+    "outlineNumber" : "6",
+    "wbs" : "6",
+    "duration" : {
+      "value" : 521.125,
+      "units" : "DAYS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2010-06-15T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 31,
+    "id" : 21,
+    "name" : "Yearly 15th June 1",
+    "outlineLevel" : 2,
+    "outlineNumber" : "6.1",
+    "wbs" : "6.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 32,
+    "id" : 22,
+    "name" : "Yearly 15th June 2",
+    "outlineLevel" : 2,
+    "outlineNumber" : "6.2",
+    "wbs" : "6.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-06-15T08:00",
+    "finish" : "2009-06-15T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 33,
+    "id" : 23,
+    "name" : "Yearly 15th June 3",
+    "outlineLevel" : 2,
+    "outlineNumber" : "6.3",
+    "wbs" : "6.3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2010-06-15T08:00",
+    "finish" : "2010-06-15T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 34,
+    "id" : 24,
+    "name" : "Yearly Third Monday of June",
+    "outlineLevel" : 1,
+    "outlineNumber" : "7",
+    "wbs" : "7",
+    "duration" : {
+      "value" : 525.125,
+      "units" : "DAYS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2010-06-21T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 37,
+    "id" : 25,
+    "name" : "Yearly Third Monday of June 1",
+    "outlineLevel" : 2,
+    "outlineNumber" : "7.1",
+    "wbs" : "7.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 38,
+    "id" : 26,
+    "name" : "Yearly Third Monday of June 2",
+    "outlineLevel" : 2,
+    "outlineNumber" : "7.2",
+    "wbs" : "7.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-06-15T08:00",
+    "finish" : "2009-06-15T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 39,
+    "id" : 27,
+    "name" : "Yearly Third Monday of June 3",
+    "outlineLevel" : 2,
+    "outlineNumber" : "7.3",
+    "wbs" : "7.3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2010-06-21T08:00",
+    "finish" : "2010-06-21T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ {
+    "uid" : 2,
+    "taskUid" : 2,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "taskUid" : 3,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "taskUid" : 7,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "taskUid" : 8,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-18T08:00",
+    "finish" : "2008-06-18T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "taskUid" : 9,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-20T08:00",
+    "finish" : "2008-06-20T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 13,
+    "taskUid" : 13,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 14,
+    "taskUid" : 14,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-18T08:00",
+    "finish" : "2008-06-18T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 15,
+    "taskUid" : 15,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-20T08:00",
+    "finish" : "2008-06-20T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 19,
+    "taskUid" : 19,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 20,
+    "taskUid" : 20,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-07-15T08:00",
+    "finish" : "2008-07-15T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 21,
+    "taskUid" : 21,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-08-15T08:00",
+    "finish" : "2008-08-15T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 25,
+    "taskUid" : 25,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 26,
+    "taskUid" : 26,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-07-21T08:00",
+    "finish" : "2008-07-21T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 27,
+    "taskUid" : 27,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-08-18T08:00",
+    "finish" : "2008-08-18T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 31,
+    "taskUid" : 31,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 32,
+    "taskUid" : 32,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-06-15T08:00",
+    "finish" : "2009-06-15T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 33,
+    "taskUid" : 33,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2010-06-15T08:00",
+    "finish" : "2010-06-15T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 37,
+    "taskUid" : 37,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2008-06-16T08:00",
+    "finish" : "2008-06-16T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 38,
+    "taskUid" : 38,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-06-15T08:00",
+    "finish" : "2009-06-15T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 39,
+    "taskUid" : 39,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2010-06-21T08:00",
+    "finish" : "2010-06-21T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

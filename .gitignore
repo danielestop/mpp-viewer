@@ -1,0 +1,19 @@
+# Dipendenze e output generati
+node_modules/
+dist/
+
+# Strumenti locali di sviluppo (JDK portatile, MPXJ) — vedi ADR 0004
+.tools/
+
+# Segreti
+.env
+.env.*
+
+# File .mpp aziendali o personali: MAI nel repo
+samples-private/
+
+# Log e file di sistema
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

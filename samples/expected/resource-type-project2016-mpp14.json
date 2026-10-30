@@ -1,0 +1,278 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "resource-type-project2016-mpp14",
+    "subject" : null,
+    "author" : "jon",
+    "company" : null,
+    "manager" : null,
+    "start" : "2018-10-20T08:00",
+    "finish" : "2018-10-20T08:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "resource-type-project2016-mpp14",
+    "outlineLevel" : 0,
+    "outlineNumber" : null,
+    "wbs" : null,
+    "duration" : {
+      "value" : 0.0,
+      "units" : "DAYS"
+    },
+    "start" : "2018-10-20T08:00",
+    "finish" : "2018-10-20T08:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Cost Resource 1",
+    "type" : "COST",
+    "initials" : "C",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "id" : 2,
+    "name" : "Cost Resource 2",
+    "type" : "COST",
+    "initials" : "C",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 3,
+    "name" : "Cost Resource 3",
+    "type" : "COST",
+    "initials" : "C",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 4,
+    "name" : "Cost Resource 4",
+    "type" : "COST",
+    "initials" : "C",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "id" : 5,
+    "name" : "Cost Resource 5",
+    "type" : "COST",
+    "initials" : "C",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "id" : 6,
+    "name" : "Material Resource 1",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "id" : 7,
+    "name" : "Material Resource 2",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "id" : 8,
+    "name" : "Material Resource 3",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "id" : 9,
+    "name" : "Material Resource 4",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 10,
+    "id" : 10,
+    "name" : "Material Resource 5",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 11,
+    "id" : 11,
+    "name" : "Work Resource 1",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 12,
+    "id" : 12,
+    "name" : "Work Resource 2",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 13,
+    "id" : 13,
+    "name" : "Work Resource 3",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 14,
+    "id" : 14,
+    "name" : "Work Resource 4",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 15,
+    "id" : 15,
+    "name" : "Work Resource 5",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

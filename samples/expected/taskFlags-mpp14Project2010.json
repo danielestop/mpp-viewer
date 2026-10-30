@@ -1,0 +1,2913 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "Project2013",
+    "subject" : null,
+    "author" : "melanie",
+    "company" : null,
+    "manager" : null,
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "Project2013",
+    "outlineLevel" : 0,
+    "outlineNumber" : "0",
+    "wbs" : "0",
+    "duration" : {
+      "value" : 8.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "id" : 1,
+    "name" : "Ignore Resource Calendars",
+    "outlineLevel" : 1,
+    "outlineNumber" : "1",
+    "wbs" : "1",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 2,
+    "name" : "Ignore Resource Calendars: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "1.1",
+    "wbs" : "1.1",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "id" : 3,
+    "name" : "Ignore Resource Calendars: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "1.2",
+    "wbs" : "1.2",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 4,
+    "name" : "Ignore Resource Calendars: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "1.3",
+    "wbs" : "1.3",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 5,
+    "name" : "Ignore Resource Calendars: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "1.4",
+    "wbs" : "1.4",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "id" : 6,
+    "name" : "Effort Driven",
+    "outlineLevel" : 1,
+    "outlineNumber" : "2",
+    "wbs" : "2",
+    "duration" : {
+      "value" : 4.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "id" : 7,
+    "name" : "Effort Driven: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "2.1",
+    "wbs" : "2.1",
+    "duration" : {
+      "value" : 4.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "id" : 8,
+    "name" : "Effort Driven: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "2.2",
+    "wbs" : "2.2",
+    "duration" : {
+      "value" : 4.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "id" : 9,
+    "name" : "Effort Driven: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "2.3",
+    "wbs" : "2.3",
+    "duration" : {
+      "value" : 4.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 10,
+    "id" : 10,
+    "name" : "Effort Driven: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "2.4",
+    "wbs" : "2.4",
+    "duration" : {
+      "value" : 4.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 11,
+    "id" : 11,
+    "name" : "Hide Bar",
+    "outlineLevel" : 1,
+    "outlineNumber" : "3",
+    "wbs" : "3",
+    "duration" : {
+      "value" : 3.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 12,
+    "id" : 12,
+    "name" : "Hide Bar: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "3.1",
+    "wbs" : "3.1",
+    "duration" : {
+      "value" : 3.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 13,
+    "id" : 13,
+    "name" : "Hide Bar: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "3.2",
+    "wbs" : "3.2",
+    "duration" : {
+      "value" : 3.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 14,
+    "id" : 14,
+    "name" : "Hide Bar: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "3.3",
+    "wbs" : "3.3",
+    "duration" : {
+      "value" : 3.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 15,
+    "id" : 15,
+    "name" : "Hide Bar: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "3.4",
+    "wbs" : "3.4",
+    "duration" : {
+      "value" : 3.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 16,
+    "id" : 16,
+    "name" : "Level Assignments",
+    "outlineLevel" : 1,
+    "outlineNumber" : "4",
+    "wbs" : "4",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 17,
+    "id" : 17,
+    "name" : "Level Assignments: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "4.1",
+    "wbs" : "4.1",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 18,
+    "id" : 18,
+    "name" : "Level Assignments: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "4.2",
+    "wbs" : "4.2",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 19,
+    "id" : 19,
+    "name" : "Level Assignments: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "4.3",
+    "wbs" : "4.3",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 20,
+    "id" : 20,
+    "name" : "Level Assignments: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "4.4",
+    "wbs" : "4.4",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 21,
+    "id" : 21,
+    "name" : "Leveling Can Split",
+    "outlineLevel" : 1,
+    "outlineNumber" : "5",
+    "wbs" : "5",
+    "duration" : {
+      "value" : 7.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG1",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 22,
+    "id" : 22,
+    "name" : "Leveling Can Split: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "5.1",
+    "wbs" : "5.1",
+    "duration" : {
+      "value" : 7.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 23,
+    "id" : 23,
+    "name" : "Leveling Can Split: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "5.2",
+    "wbs" : "5.2",
+    "duration" : {
+      "value" : 7.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 24,
+    "id" : 24,
+    "name" : "Leveling Can Split: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "5.3",
+    "wbs" : "5.3",
+    "duration" : {
+      "value" : 7.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 25,
+    "id" : 25,
+    "name" : "Leveling Can Split: Yno",
+    "outlineLevel" : 2,
+    "outlineNumber" : "5.4",
+    "wbs" : "5.4",
+    "duration" : {
+      "value" : 7.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 26,
+    "id" : 26,
+    "name" : "Marked",
+    "outlineLevel" : 1,
+    "outlineNumber" : "6",
+    "wbs" : "6",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 27,
+    "id" : 27,
+    "name" : "Marked: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "6.1",
+    "wbs" : "6.1",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 28,
+    "id" : 28,
+    "name" : "Marked: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "6.2",
+    "wbs" : "6.2",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 29,
+    "id" : 29,
+    "name" : "Marked: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "6.3",
+    "wbs" : "6.3",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 30,
+    "id" : 30,
+    "name" : "Marked: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "6.4",
+    "wbs" : "6.4",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 31,
+    "id" : 31,
+    "name" : "Milestone",
+    "outlineLevel" : 1,
+    "outlineNumber" : "7",
+    "wbs" : "7",
+    "duration" : {
+      "value" : 8.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 32,
+    "id" : 32,
+    "name" : "Milestone: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "7.1",
+    "wbs" : "7.1",
+    "duration" : {
+      "value" : 8.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : true,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 33,
+    "id" : 33,
+    "name" : "Milestone: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "7.2",
+    "wbs" : "7.2",
+    "duration" : {
+      "value" : 8.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 34,
+    "id" : 34,
+    "name" : "Milestone: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "7.3",
+    "wbs" : "7.3",
+    "duration" : {
+      "value" : 8.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : true,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 35,
+    "id" : 35,
+    "name" : "Milestone: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "7.4",
+    "wbs" : "7.4",
+    "duration" : {
+      "value" : 8.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 36,
+    "id" : 36,
+    "name" : "Rollup",
+    "outlineLevel" : 1,
+    "outlineNumber" : "8",
+    "wbs" : "8",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 37,
+    "id" : 37,
+    "name" : "Rollup: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "8.1",
+    "wbs" : "8.1",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 38,
+    "id" : 38,
+    "name" : "Rollup: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "8.2",
+    "wbs" : "8.2",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 39,
+    "id" : 39,
+    "name" : "Rollup: Yes",
+    "outlineLevel" : 2,
+    "outlineNumber" : "8.3",
+    "wbs" : "8.3",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 40,
+    "id" : 40,
+    "name" : "Rollup: No",
+    "outlineLevel" : 2,
+    "outlineNumber" : "8.4",
+    "wbs" : "8.4",
+    "duration" : {
+      "value" : 6.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 41,
+    "id" : 41,
+    "name" : "Flags",
+    "outlineLevel" : 1,
+    "outlineNumber" : "9",
+    "wbs" : "9",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 42,
+    "id" : 42,
+    "name" : "Flag1",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.1",
+    "wbs" : "9.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG1",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 43,
+    "id" : 43,
+    "name" : "Flag2",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.2",
+    "wbs" : "9.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG2",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 44,
+    "id" : 44,
+    "name" : "Flag3",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.3",
+    "wbs" : "9.3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG3",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 45,
+    "id" : 45,
+    "name" : "Flag4",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.4",
+    "wbs" : "9.4",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG4",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 46,
+    "id" : 46,
+    "name" : "Flag5",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.5",
+    "wbs" : "9.5",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG5",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 47,
+    "id" : 47,
+    "name" : "Flag6",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.6",
+    "wbs" : "9.6",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG6",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 48,
+    "id" : 48,
+    "name" : "Flag7",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.7",
+    "wbs" : "9.7",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG7",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 49,
+    "id" : 49,
+    "name" : "Flag8",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.8",
+    "wbs" : "9.8",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG8",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 50,
+    "id" : 50,
+    "name" : "Flag9",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.9",
+    "wbs" : "9.9",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG9",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 51,
+    "id" : 51,
+    "name" : "Flag10",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.10",
+    "wbs" : "9.10",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG10",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 52,
+    "id" : 52,
+    "name" : "Flag11",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.11",
+    "wbs" : "9.11",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG11",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 53,
+    "id" : 53,
+    "name" : "Flag12",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.12",
+    "wbs" : "9.12",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG12",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 54,
+    "id" : 54,
+    "name" : "Flag13",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.13",
+    "wbs" : "9.13",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG13",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 55,
+    "id" : 55,
+    "name" : "Flag14",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.14",
+    "wbs" : "9.14",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG14",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 56,
+    "id" : 56,
+    "name" : "Flag15",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.15",
+    "wbs" : "9.15",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG15",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 57,
+    "id" : 57,
+    "name" : "Flag16",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.16",
+    "wbs" : "9.16",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG16",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 58,
+    "id" : 58,
+    "name" : "Flag17",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.17",
+    "wbs" : "9.17",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG17",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 59,
+    "id" : 59,
+    "name" : "Flag18",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.18",
+    "wbs" : "9.18",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG18",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 60,
+    "id" : 60,
+    "name" : "Flag19",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.19",
+    "wbs" : "9.19",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG19",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 61,
+    "id" : 61,
+    "name" : "Flag20",
+    "outlineLevel" : 2,
+    "outlineNumber" : "9.20",
+    "wbs" : "9.20",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "FLAG20",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 62,
+    "id" : 62,
+    "name" : "Active",
+    "outlineLevel" : 1,
+    "outlineNumber" : "10",
+    "wbs" : "10",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 63,
+    "id" : 63,
+    "name" : "Active: On",
+    "outlineLevel" : 2,
+    "outlineNumber" : "10.1",
+    "wbs" : "10.1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 64,
+    "id" : 64,
+    "name" : "Active: Off",
+    "outlineLevel" : 2,
+    "outlineNumber" : "10.2",
+    "wbs" : "10.2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 65,
+    "id" : 65,
+    "name" : "Active: On",
+    "outlineLevel" : 2,
+    "outlineNumber" : "10.3",
+    "wbs" : "10.3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 66,
+    "id" : 66,
+    "name" : "Active: Off",
+    "outlineLevel" : 2,
+    "outlineNumber" : "10.4",
+    "wbs" : "10.4",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 67,
+    "id" : 67,
+    "name" : "Mode",
+    "outlineLevel" : 1,
+    "outlineNumber" : "11",
+    "wbs" : "11",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 68,
+    "id" : 68,
+    "name" : "Mode: Auto",
+    "outlineLevel" : 2,
+    "outlineNumber" : "11.1",
+    "wbs" : "11.1",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 69,
+    "id" : 69,
+    "name" : "Mode: Manual",
+    "outlineLevel" : 2,
+    "outlineNumber" : "11.2",
+    "wbs" : "11.2",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 70,
+    "id" : 70,
+    "name" : "Mode: Auto",
+    "outlineLevel" : 2,
+    "outlineNumber" : "11.3",
+    "wbs" : "11.3",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 71,
+    "id" : 71,
+    "name" : "Mode: Manual",
+    "outlineLevel" : 2,
+    "outlineNumber" : "11.4",
+    "wbs" : "11.4",
+    "duration" : {
+      "value" : 2.0,
+      "units" : "DAYS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "flag5",
+    "type" : "WORK",
+    "initials" : "f",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ {
+    "uid" : 1,
+    "taskUid" : 1,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "taskUid" : 2,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "taskUid" : 3,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "taskUid" : 4,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-06T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "taskUid" : 7,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 32.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "taskUid" : 8,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 32.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "taskUid" : 9,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 32.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "taskUid" : 10,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 32.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-05T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 11,
+    "taskUid" : 12,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 24.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 12,
+    "taskUid" : 13,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 24.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 13,
+    "taskUid" : 14,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 24.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 14,
+    "taskUid" : 15,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 24.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-04T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 16,
+    "taskUid" : 17,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 48.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 17,
+    "taskUid" : 18,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 48.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 18,
+    "taskUid" : 19,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 48.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 19,
+    "taskUid" : 20,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 48.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 21,
+    "taskUid" : 22,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 56.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 22,
+    "taskUid" : 23,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 56.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 23,
+    "taskUid" : 24,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 56.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 24,
+    "taskUid" : 25,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 56.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-10T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 26,
+    "taskUid" : 27,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 16.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 27,
+    "taskUid" : 28,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 16.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 28,
+    "taskUid" : 29,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 16.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 29,
+    "taskUid" : 30,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 16.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 31,
+    "taskUid" : 32,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 64.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 32,
+    "taskUid" : 33,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 64.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 33,
+    "taskUid" : 34,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 64.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 34,
+    "taskUid" : 35,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 64.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-11T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 36,
+    "taskUid" : 37,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 48.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 37,
+    "taskUid" : 38,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 48.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 38,
+    "taskUid" : 39,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 48.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 39,
+    "taskUid" : 40,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 48.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-09T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 41,
+    "taskUid" : 42,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 42,
+    "taskUid" : 43,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 43,
+    "taskUid" : 44,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 44,
+    "taskUid" : 45,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 45,
+    "taskUid" : 46,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 46,
+    "taskUid" : 47,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 47,
+    "taskUid" : 48,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 48,
+    "taskUid" : 49,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 49,
+    "taskUid" : 50,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 50,
+    "taskUid" : 51,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 51,
+    "taskUid" : 52,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 52,
+    "taskUid" : 53,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 53,
+    "taskUid" : 54,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 54,
+    "taskUid" : 55,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 55,
+    "taskUid" : 56,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 56,
+    "taskUid" : 57,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 57,
+    "taskUid" : 58,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 58,
+    "taskUid" : 59,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 59,
+    "taskUid" : 60,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 60,
+    "taskUid" : 61,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 63,
+    "taskUid" : 63,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 64,
+    "taskUid" : 64,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 65,
+    "taskUid" : 65,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 66,
+    "taskUid" : 66,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-02T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 68,
+    "taskUid" : 68,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 16.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 69,
+    "taskUid" : 69,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 16.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 70,
+    "taskUid" : 70,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 16.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 71,
+    "taskUid" : 71,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 16.0,
+      "units" : "HOURS"
+    },
+    "start" : "2013-09-02T08:00",
+    "finish" : "2013-09-03T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

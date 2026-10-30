@@ -1,0 +1,452 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "timephased-material-resource",
+    "subject" : null,
+    "author" : "Project User",
+    "company" : null,
+    "manager" : null,
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "timephased-material-resource",
+    "outlineLevel" : 0,
+    "outlineNumber" : "0",
+    "wbs" : "0",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "percentComplete" : 15.0,
+    "work" : {
+      "value" : 80.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 68.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Task 1",
+    "outlineLevel" : 1,
+    "outlineNumber" : "1",
+    "wbs" : "1",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 2,
+    "name" : "Task 2",
+    "outlineLevel" : 1,
+    "outlineNumber" : "2",
+    "wbs" : "2",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "percentComplete" : 30.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 28.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 3,
+    "name" : "Task 3",
+    "outlineLevel" : 1,
+    "outlineNumber" : "3",
+    "wbs" : "3",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "id" : 4,
+    "name" : "Task 4",
+    "outlineLevel" : 1,
+    "outlineNumber" : "4",
+    "wbs" : "4",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "percentComplete" : 30.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "id" : 5,
+    "name" : "Task 5",
+    "outlineLevel" : 1,
+    "outlineNumber" : "5",
+    "wbs" : "5",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "id" : 6,
+    "name" : "Task 6",
+    "outlineLevel" : 1,
+    "outlineNumber" : "6",
+    "wbs" : "6",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "percentComplete" : 30.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Work Resource 1",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 10.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "id" : 2,
+    "name" : "Material Resource 1",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 12.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 3,
+    "name" : "Work Resource 2",
+    "type" : "WORK",
+    "initials" : "W",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 10.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 4,
+    "name" : "Material Resource 2",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 12.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "id" : 5,
+    "name" : "Material Resource 3",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 12.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "id" : 6,
+    "name" : "Material Resource 4",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 12.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "id" : 7,
+    "name" : "Material Resource 5",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 12.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "id" : 8,
+    "name" : "Material Resource 6",
+    "type" : "MATERIAL",
+    "initials" : "M",
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 12.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ {
+    "uid" : 2,
+    "taskUid" : 1,
+    "resourceUid" : 1,
+    "units" : 100.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "taskUid" : 1,
+    "resourceUid" : 2,
+    "units" : 1000.0,
+    "work" : {
+      "value" : 10.0,
+      "units" : "HOURS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "taskUid" : 3,
+    "resourceUid" : 4,
+    "units" : 1000.0,
+    "work" : {
+      "value" : 10.0,
+      "units" : "HOURS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "taskUid" : 3,
+    "resourceUid" : 3,
+    "units" : 100.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 10,
+    "taskUid" : 4,
+    "resourceUid" : 5,
+    "units" : 1000.0,
+    "work" : {
+      "value" : 10.0,
+      "units" : "HOURS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 12,
+    "taskUid" : 5,
+    "resourceUid" : 6,
+    "units" : 1500.0,
+    "work" : {
+      "value" : 15.0,
+      "units" : "HOURS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 13,
+    "taskUid" : 6,
+    "resourceUid" : 7,
+    "units" : 2000.0,
+    "work" : {
+      "value" : 20.0,
+      "units" : "HOURS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 16,
+    "taskUid" : 8,
+    "resourceUid" : 8,
+    "units" : 2000.0,
+    "work" : {
+      "value" : 20.0,
+      "units" : "HOURS"
+    },
+    "start" : "2026-02-10T08:00",
+    "finish" : "2026-02-16T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

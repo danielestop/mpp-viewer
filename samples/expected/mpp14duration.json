@@ -1,0 +1,478 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "mpp14duration",
+    "subject" : null,
+    "author" : "Jon Iles",
+    "company" : "Davis Langdon",
+    "manager" : null,
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-04-24T08:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "mpp14duration",
+    "outlineLevel" : 0,
+    "outlineNumber" : "0",
+    "wbs" : "0",
+    "duration" : {
+      "value" : 22.0,
+      "units" : "DAYS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-04-24T08:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Task 1",
+    "outlineLevel" : 1,
+    "outlineNumber" : "1",
+    "wbs" : "1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "MINUTES"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T08:01",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "id" : 2,
+    "name" : "Task 2",
+    "outlineLevel" : 1,
+    "outlineNumber" : "2",
+    "wbs" : "2",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "id" : 3,
+    "name" : "Task 3",
+    "outlineLevel" : 1,
+    "outlineNumber" : "3",
+    "wbs" : "3",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "DAYS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "id" : 4,
+    "name" : "Task 4",
+    "outlineLevel" : 1,
+    "outlineNumber" : "4",
+    "wbs" : "4",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "WEEKS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-31T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "id" : 5,
+    "name" : "Task 5",
+    "outlineLevel" : 1,
+    "outlineNumber" : "5",
+    "wbs" : "5",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "MONTHS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-04-21T17:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "id" : 6,
+    "name" : "Task 6",
+    "outlineLevel" : 1,
+    "outlineNumber" : "6",
+    "wbs" : "6",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "ELAPSED_MINUTES"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T08:01",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "id" : 7,
+    "name" : "Task 7",
+    "outlineLevel" : 1,
+    "outlineNumber" : "7",
+    "wbs" : "7",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "ELAPSED_HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T09:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "id" : 8,
+    "name" : "Task 8",
+    "outlineLevel" : 1,
+    "outlineNumber" : "8",
+    "wbs" : "8",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "ELAPSED_DAYS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-26T08:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "id" : 9,
+    "name" : "Task 9",
+    "outlineLevel" : 1,
+    "outlineNumber" : "9",
+    "wbs" : "9",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "ELAPSED_WEEKS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-04-01T08:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 10,
+    "id" : 10,
+    "name" : "Task 10",
+    "outlineLevel" : 1,
+    "outlineNumber" : "10",
+    "wbs" : "10",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "ELAPSED_MONTHS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-04-24T08:00",
+    "percentComplete" : 0.0,
+    "work" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 0.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ {
+    "uid" : 1,
+    "taskUid" : 1,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 0.016666666666666666,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T08:01",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 2,
+    "taskUid" : 2,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 3,
+    "taskUid" : 3,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 8.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 4,
+    "taskUid" : 4,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-31T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 5,
+    "taskUid" : 5,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 160.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-04-21T17:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 6,
+    "taskUid" : 6,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 0.016666666666666666,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T08:01",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 7,
+    "taskUid" : 7,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 1.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-25T09:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 8,
+    "taskUid" : 8,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 24.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-03-26T08:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 9,
+    "taskUid" : 9,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 168.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-04-01T08:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 10,
+    "taskUid" : 10,
+    "resourceUid" : null,
+    "units" : 100.0,
+    "work" : {
+      "value" : 720.0,
+      "units" : "HOURS"
+    },
+    "start" : "2009-03-25T08:00",
+    "finish" : "2009-04-24T08:00",
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}

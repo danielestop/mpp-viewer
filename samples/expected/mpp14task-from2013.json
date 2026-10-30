@@ -1,0 +1,519 @@
+{
+  "format" : "MSProject.MPP14",
+  "project" : {
+    "title" : "MPP12 Test",
+    "subject" : null,
+    "author" : "Wade Golden",
+    "company" : "Steelray Software",
+    "manager" : null,
+    "start" : "2006-08-23T08:00",
+    "finish" : "2006-08-29T17:00",
+    "statusDate" : null
+  },
+  "tasks" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : "MPP12 Test",
+    "outlineLevel" : 0,
+    "outlineNumber" : "0",
+    "wbs" : "0",
+    "duration" : {
+      "value" : 5.0,
+      "units" : "DAYS"
+    },
+    "start" : "2006-08-23T08:00",
+    "finish" : "2006-08-29T17:00",
+    "percentComplete" : 45.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 22.0,
+      "units" : "HOURS"
+    },
+    "summary" : true,
+    "milestone" : false,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Task #1",
+    "outlineLevel" : 1,
+    "outlineNumber" : "1",
+    "wbs" : "1",
+    "duration" : {
+      "value" : 1.0,
+      "units" : "WEEKS"
+    },
+    "start" : "2006-08-23T08:00",
+    "finish" : "2006-08-29T17:00",
+    "percentComplete" : 45.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "remainingWork" : {
+      "value" : 22.0,
+      "units" : "HOURS"
+    },
+    "summary" : false,
+    "milestone" : true,
+    "null" : false,
+    "predecessors" : [ ],
+    "customFields" : [ {
+      "field" : "TEXT1",
+      "value" : "1"
+    }, {
+      "field" : "TEXT2",
+      "value" : "2"
+    }, {
+      "field" : "TEXT3",
+      "value" : "3"
+    }, {
+      "field" : "TEXT4",
+      "value" : "4"
+    }, {
+      "field" : "TEXT5",
+      "value" : "5"
+    }, {
+      "field" : "TEXT6",
+      "value" : "6"
+    }, {
+      "field" : "TEXT7",
+      "value" : "7"
+    }, {
+      "field" : "TEXT8",
+      "value" : "8"
+    }, {
+      "field" : "TEXT9",
+      "value" : "9"
+    }, {
+      "field" : "TEXT10",
+      "value" : "10"
+    }, {
+      "field" : "TEXT11",
+      "value" : "11"
+    }, {
+      "field" : "TEXT12",
+      "value" : "12"
+    }, {
+      "field" : "TEXT13",
+      "value" : "13"
+    }, {
+      "field" : "TEXT14",
+      "value" : "14"
+    }, {
+      "field" : "TEXT15",
+      "value" : "15"
+    }, {
+      "field" : "TEXT16",
+      "value" : "16"
+    }, {
+      "field" : "TEXT17",
+      "value" : "17"
+    }, {
+      "field" : "TEXT18",
+      "value" : "18"
+    }, {
+      "field" : "TEXT19",
+      "value" : "19"
+    }, {
+      "field" : "TEXT20",
+      "value" : "20"
+    }, {
+      "field" : "TEXT21",
+      "value" : "21"
+    }, {
+      "field" : "TEXT22",
+      "value" : "22"
+    }, {
+      "field" : "TEXT23",
+      "value" : "23"
+    }, {
+      "field" : "TEXT24",
+      "value" : "24"
+    }, {
+      "field" : "TEXT25",
+      "value" : "25"
+    }, {
+      "field" : "TEXT26",
+      "value" : "26"
+    }, {
+      "field" : "TEXT27",
+      "value" : "27"
+    }, {
+      "field" : "TEXT28",
+      "value" : "28"
+    }, {
+      "field" : "TEXT29",
+      "value" : "29"
+    }, {
+      "field" : "TEXT30",
+      "value" : "30"
+    }, {
+      "field" : "NUMBER1",
+      "value" : 1.0
+    }, {
+      "field" : "NUMBER2",
+      "value" : 2.0
+    }, {
+      "field" : "NUMBER3",
+      "value" : 3.0
+    }, {
+      "field" : "NUMBER4",
+      "value" : 4.0
+    }, {
+      "field" : "NUMBER5",
+      "value" : 5.0
+    }, {
+      "field" : "NUMBER6",
+      "value" : 6.0
+    }, {
+      "field" : "NUMBER7",
+      "value" : 7.0
+    }, {
+      "field" : "NUMBER8",
+      "value" : 8.0
+    }, {
+      "field" : "NUMBER9",
+      "value" : 9.0
+    }, {
+      "field" : "NUMBER10",
+      "value" : 10.0
+    }, {
+      "field" : "NUMBER11",
+      "value" : 11.0
+    }, {
+      "field" : "NUMBER12",
+      "value" : 12.0
+    }, {
+      "field" : "NUMBER13",
+      "value" : 13.0
+    }, {
+      "field" : "NUMBER14",
+      "value" : 14.0
+    }, {
+      "field" : "NUMBER15",
+      "value" : 15.0
+    }, {
+      "field" : "NUMBER16",
+      "value" : 16.0
+    }, {
+      "field" : "NUMBER17",
+      "value" : 17.0
+    }, {
+      "field" : "NUMBER18",
+      "value" : 18.0
+    }, {
+      "field" : "NUMBER19",
+      "value" : 19.0
+    }, {
+      "field" : "NUMBER20",
+      "value" : 20.0
+    }, {
+      "field" : "COST1",
+      "value" : 1.0
+    }, {
+      "field" : "COST2",
+      "value" : 2.0
+    }, {
+      "field" : "COST3",
+      "value" : 3.0
+    }, {
+      "field" : "COST4",
+      "value" : 4.0
+    }, {
+      "field" : "COST5",
+      "value" : 5.0
+    }, {
+      "field" : "COST6",
+      "value" : 6.0
+    }, {
+      "field" : "COST7",
+      "value" : 7.0
+    }, {
+      "field" : "COST8",
+      "value" : 8.0
+    }, {
+      "field" : "COST9",
+      "value" : 9.0
+    }, {
+      "field" : "COST10",
+      "value" : 10.0
+    }, {
+      "field" : "DATE1",
+      "value" : "2006-08-25T08:00"
+    }, {
+      "field" : "DATE2",
+      "value" : "2006-08-26T08:00"
+    }, {
+      "field" : "DATE3",
+      "value" : "2006-08-27T08:00"
+    }, {
+      "field" : "DATE4",
+      "value" : "2006-08-28T08:00"
+    }, {
+      "field" : "DATE5",
+      "value" : "2006-08-29T08:00"
+    }, {
+      "field" : "DATE6",
+      "value" : "2006-08-30T08:00"
+    }, {
+      "field" : "DATE7",
+      "value" : "2006-08-31T08:00"
+    }, {
+      "field" : "DATE8",
+      "value" : "2006-09-01T08:00"
+    }, {
+      "field" : "DATE9",
+      "value" : "2006-09-02T08:00"
+    }, {
+      "field" : "DATE10",
+      "value" : "2006-09-03T08:00"
+    }, {
+      "field" : "START1",
+      "value" : "2006-08-25T08:00"
+    }, {
+      "field" : "START2",
+      "value" : "2006-08-26T08:00"
+    }, {
+      "field" : "START3",
+      "value" : "2006-08-27T08:00"
+    }, {
+      "field" : "START4",
+      "value" : "2006-08-28T08:00"
+    }, {
+      "field" : "START5",
+      "value" : "2006-08-29T08:00"
+    }, {
+      "field" : "START6",
+      "value" : "2006-08-30T08:00"
+    }, {
+      "field" : "START7",
+      "value" : "2006-08-31T08:00"
+    }, {
+      "field" : "START8",
+      "value" : "2006-09-01T08:00"
+    }, {
+      "field" : "START9",
+      "value" : "2006-09-02T08:00"
+    }, {
+      "field" : "START10",
+      "value" : "2006-09-03T08:00"
+    }, {
+      "field" : "FINISH1",
+      "value" : "2006-08-25T17:00"
+    }, {
+      "field" : "FINISH2",
+      "value" : "2006-08-26T17:00"
+    }, {
+      "field" : "FINISH3",
+      "value" : "2006-08-27T17:00"
+    }, {
+      "field" : "FINISH4",
+      "value" : "2006-08-28T17:00"
+    }, {
+      "field" : "FINISH5",
+      "value" : "2006-08-29T17:00"
+    }, {
+      "field" : "FINISH6",
+      "value" : "2006-08-30T17:00"
+    }, {
+      "field" : "FINISH7",
+      "value" : "2006-08-31T17:00"
+    }, {
+      "field" : "FINISH8",
+      "value" : "2006-09-01T17:00"
+    }, {
+      "field" : "FINISH9",
+      "value" : "2006-09-02T17:00"
+    }, {
+      "field" : "FINISH10",
+      "value" : "2006-09-03T17:00"
+    }, {
+      "field" : "DURATION1",
+      "value" : {
+        "value" : 1.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION2",
+      "value" : {
+        "value" : 2.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION3",
+      "value" : {
+        "value" : 3.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION4",
+      "value" : {
+        "value" : 4.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION5",
+      "value" : {
+        "value" : 5.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION6",
+      "value" : {
+        "value" : 6.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION7",
+      "value" : {
+        "value" : 7.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION8",
+      "value" : {
+        "value" : 8.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION9",
+      "value" : {
+        "value" : 9.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "DURATION10",
+      "value" : {
+        "value" : 10.0,
+        "units" : "DAYS"
+      }
+    }, {
+      "field" : "FLAG1",
+      "value" : true
+    }, {
+      "field" : "FLAG2",
+      "value" : true
+    }, {
+      "field" : "FLAG3",
+      "value" : true
+    }, {
+      "field" : "FLAG4",
+      "value" : true
+    }, {
+      "field" : "FLAG5",
+      "value" : true
+    }, {
+      "field" : "FLAG6",
+      "value" : true
+    }, {
+      "field" : "FLAG7",
+      "value" : true
+    }, {
+      "field" : "FLAG8",
+      "value" : true
+    }, {
+      "field" : "FLAG9",
+      "value" : true
+    }, {
+      "field" : "FLAG10",
+      "value" : true
+    }, {
+      "field" : "FLAG11",
+      "value" : true
+    }, {
+      "field" : "FLAG12",
+      "value" : true
+    }, {
+      "field" : "FLAG13",
+      "value" : true
+    }, {
+      "field" : "FLAG14",
+      "value" : true
+    }, {
+      "field" : "FLAG15",
+      "value" : true
+    }, {
+      "field" : "FLAG16",
+      "value" : true
+    }, {
+      "field" : "FLAG17",
+      "value" : true
+    }, {
+      "field" : "FLAG18",
+      "value" : true
+    }, {
+      "field" : "FLAG19",
+      "value" : true
+    }, {
+      "field" : "FLAG20",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  } ],
+  "resources" : [ {
+    "uid" : 0,
+    "id" : 0,
+    "name" : null,
+    "type" : "WORK",
+    "initials" : null,
+    "group" : null,
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 0.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  }, {
+    "uid" : 1,
+    "id" : 1,
+    "name" : "Wade Golden",
+    "type" : "WORK",
+    "initials" : "WG",
+    "group" : "Group1",
+    "maxUnits" : 100.0,
+    "standardRate" : {
+      "amount" : 100.0,
+      "units" : "HOURS"
+    },
+    "customFields" : [ ],
+    "enterpriseFields" : [ ]
+  } ],
+  "assignments" : [ {
+    "uid" : 1,
+    "taskUid" : 1,
+    "resourceUid" : 1,
+    "units" : 100.0,
+    "work" : {
+      "value" : 40.0,
+      "units" : "HOURS"
+    },
+    "start" : "2006-08-23T08:00",
+    "finish" : "2006-08-29T17:00",
+    "customFields" : [ {
+      "field" : "FLAG5",
+      "value" : true
+    }, {
+      "field" : "FLAG6",
+      "value" : true
+    } ],
+    "enterpriseFields" : [ ]
+  } ],
+  "customFieldNames" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  },
+  "enterpriseFieldTypes" : {
+    "task" : { },
+    "resource" : { },
+    "assignment" : { }
+  }
+}
